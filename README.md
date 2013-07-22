@@ -16,6 +16,10 @@ For other options see section bellow.
 How to use ?
 ---------------------
 
+#### Setup note
+
+This plugin requires JQuery. Get the latest version here : [http://code.jquery.com/jquery.min.js](http://code.jquery.com/jquery.min.js)
+
 #### HTML code
 
 `<a href="http://www.example.com/content-to-load.json" class="open">Open panel</a>`
