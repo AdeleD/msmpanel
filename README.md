@@ -6,9 +6,9 @@ A Javascript panel for your UI
 
 msmpanel is an expandable panel.
 
-The panel can be opened by clicking on any custom element of the page.
+The panel can be opened by clicking on any custom element.
 
-Thanks to options, you can choose to expand your panel over content or by pushing it.
+You can choose to expand your panel *over content* or by *pushing it*.
 For other options see section bellow.
 
 
@@ -35,14 +35,14 @@ Options
 ---------------------
 
 You can use various options for your panel :
-* position [String] - position of the panel. It can be : "top", "right", "bottom" or "left"
-* size [Number] - the size for the panel
+* position [String] - the position of the panel. It can be : "top", "right", "bottom" or "left"
+* size [Number] - the size of the panel
 * state [String] - the initial state of the panel. It can be : "opened" or "closed"
-* duration [Number] - duration time for the animation of the panel
+* duration [Number] - duration time for the open/close animation
 * mode [String] - the way of expanding the panel. It can be : "push" or leave blank to open the panel over content
 * showCloseButton [Boolean] - add close button to the panel. True or false
-* onPanelOpen [Function] - a function called after panel was opened
-* onPanelClose [Function] - a function called after panel was closed
+* onPanelOpen [Function] - a function called after the panel was opened
+* onPanelClose [Function] - a function called after the panel was closed
 
 
 #### Default options are :
@@ -50,7 +50,7 @@ You can use various options for your panel :
 * size: 280,
 * state: "closed",
 * duration: 250,
-* mode: '',
+* mode: "",
 * showCloseButton: false,
 * onPanelOpen: function(el) {},
 * onPanelClose: function(el) {}
