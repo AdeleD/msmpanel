@@ -8,7 +8,7 @@ msmpanel is an expandable panel.
 
 The panel can be opened by clicking on any custom element.
 
-You can choose to expand your panel *over content* or by *pushing it*.
+You can choose to expand your panel **over content** or by **pushing it**.
 For other options see section bellow.
 
 
