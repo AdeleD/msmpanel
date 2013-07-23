@@ -43,7 +43,7 @@ var Panel = {
 			if (!$.data(this, 'msmpanel')) {
 				return this.each(function() {
 
-					$(this).bind('click', function(e) {
+					$(this).on('click', function(e) {
 						element = $(this);
 						$.msmpanel.build();
 						$.msmpanel.toggle();
