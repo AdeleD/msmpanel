@@ -1,7 +1,7 @@
 msmpanel
 ====================
 
-A Javascript panel for your UI
+A Javascript panel
 ---------------------
 
 msmpanel is an expandable panel.
@@ -49,7 +49,7 @@ You can use various options for your panel :
 * onPanelClose [Function] - a function called after the panel was closed
 
 
-#### Default options are :
+#### Default options :
 * position: "left",
 * size: 280,
 * state: "closed",
